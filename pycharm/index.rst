@@ -242,21 +242,16 @@ You will now be ready to hack in and contribute to Pyramid.
 Template languages
 ==================
 
-To configure the template languages Mako and Jinja, see the PyCharm
-documentation `Templates
-<http://www.jetbrains.com/pycharm/webhelp/templates.html>`_.
+To configure the template languages Mako, Jinja, and Chameleon, see the PyCharm
+documentation `Python Template Languages
+<https://www.jetbrains.com/pycharm/help/configuring-template-languages.html>`_ or follow the steps below.
 
-To configure the template language Chameleon, see `Creating and Registering
-File Types
-<http://www.jetbrains.com/pycharm/webhelp/creating-and-registering-file-types.
-html>`_.  Specifically for Chameleon, we want to associate XML to the `*.pt`
-extension.
 
-* Open *PyCharm > Preferences...*, then the File Types dialog box.
-* From the Recognized File Types list, select "XML files".
-* In the Registered Patterns area, click the "+" button, and the Add Wildcard
-  window opens.  Enter `*.pt` in the Add Wildcard window, and click the OK
-  button.  Click OK again to save the settings.
+* Open *PyCharm > Preferences...* (or *Settings* if Windows)
+* On the left search sidebar, expand *Project: ...* and locate your templates directory.
+* At the top of the window, click the purple *Templates* button to mark the directory.
+* Expand *Languages and Frameworks* in the sidebar and click *Python Template Languages*
+* In the dropdown at the top, select your template language and click OK
 
 Creating a Pyramid project
 ==========================
